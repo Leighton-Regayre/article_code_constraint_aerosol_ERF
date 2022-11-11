@@ -6,7 +6,9 @@ Monthly mean data from the perturbed parameter ensemble (PPE) is available at ht
 All code here is written in python, with the exception of statistical emulation code, which is in R.
 
 The pertrubed parameter design table is labelled:
-XXX
+ppe_dataframe.csv
+The values in this file are used by UKESM1 suite u-bs714 and others to produce the PPE members.
+
 
 Model and observation data were processed to create regional mean values for analysis using:
 XXX

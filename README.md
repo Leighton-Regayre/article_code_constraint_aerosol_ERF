@@ -6,15 +6,16 @@ Monthly mean data from the perturbed parameter ensemble (PPE) is available at ht
 All code here is written in python, with the exception of statistical emulation code, which is in R.
 
 The pertrubed parameter design table is labelled:
-
 *ppe_dataframe.csv*
-
 The values in this file are used by UKESM1 suite u-bs714 and others to produce the PPE members.
 
 
-Model and observation data were processed to create regional mean values for analysis using:
+Model and observation MODIS data were processed to create regional mean values for analysis using:
+*regional_mean_MODIS_observation_data_github.py*
+This file exemplifies our method, using MODIS constraint variables. Other state variables were calculated in an identical manner.
+Regional means for each PPE member were calculated using:
+*regional_mean_model_github.py*
 
-XXX
 
 A map showing transects was created using:
 
